@@ -1,7 +1,7 @@
 # Assignment 3 – Flask + Django + Docker Compose
 
 ## Author
-**Shreyansh B**
+**Shreyash Choudhary**
 
 ## Docker Hub Repositories
 - [Flask Image](https://hub.docker.com/r/shreyashsp/flask)
