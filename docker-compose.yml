@@ -1,0 +1,14 @@
+services:
+  flask_app:
+    build: ./flask
+    image: shreyashsp/flask:latest
+    ports:
+      - "5000:5000"
+    command: python app.py runserver 0.0.0.0:5000
+
+  django_app:
+    build: ./django
+    image: shreyashsp/django:latest
+    ports:
+      - "8000:8000"
+    command: python manage.py runserver 0.0.0.0:8000
